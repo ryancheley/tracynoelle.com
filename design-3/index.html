@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tracy Noelle — Vegan Private Chef, Palm Springs</title>
+<meta name="description" content="Tracy Noelle Zimmerman is a vegan private chef serving Palm Springs and the Coachella Valley. Plant-based menus for dinners, events, and retreats.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="contact.html" class="nav-cta">Inquire</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <span class="sun" aria-hidden="true"></span>
+    <div class="container">
+      <div>
+        <h1>Plant-Based Dining, Desert Modern</h1>
+        <p class="tagline">Private Chef ~ Plant Based</p>
+        <p class="lead">Vegan private chef bringing vibrant, seasonal menus to homes, villas, and gatherings across Palm Springs and the Coachella Valley.</p>
+        <p style="margin-top:1.8rem;"><a class="btn" href="contact.html">Inquire About a Dinner</a></p>
+      </div>
+      <div>
+        <img class="headshot" src="https://placehold.co/520x620/2a2135/fdf4e3?text=Chef+Tracy+Noelle" alt="Portrait of Chef Tracy Noelle Zimmerman">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <span class="section-label">What I Do</span>
+      <h2>Fully plant-based, start to finish.</h2>
+      <p class="lead">Every menu is 100% vegan, built around what's growing in the valley, and designed to surprise guests who think plant-based means plain. It never does.</p>
+      <div class="features" style="margin-top:2rem;">
+        <div class="feature">
+          <h3>Private Dinners</h3>
+          <p>Intimate multi-course dinners in your Palm Springs home or rental, plated and served, with everything sourced and prepped for you.</p>
+        </div>
+        <div class="feature">
+          <h3>Events &amp; Retreats</h3>
+          <p>Plant-based catering for celebrations, wellness retreats, and desert getaways throughout the Coachella Valley.</p>
+        </div>
+        <div class="feature">
+          <h3>Menus &amp; Coaching</h3>
+          <p>Custom seasonal menus and hands-on guidance for anyone wanting to cook and eat more plants at home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt-bg">
+    <div class="container bio">
+      <div>
+        <img class="headshot" src="https://placehold.co/420x420/1fb3c4/fdf4e3?text=In+the+Kitchen" alt="Chef Tracy plating a plant-based dish">
+      </div>
+      <div>
+        <span class="section-label">The Chef</span>
+        <h2>25 years of cooking. 15 years plant-based.</h2>
+        <p>I'm Tracy Noelle Zimmerman, a vegan private chef based in Palm Springs. After more than two decades in the culinary field and fifteen years living plant-based, I've built a cooking style that's as generous and colorful as the desert itself.</p>
+        <p><a class="btn alt" href="about.html">More About Me</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container" style="text-align:center;">
+      <span class="section-label">Let's Cook</span>
+      <h2>Planning something in the desert?</h2>
+      <p class="lead" style="margin:0 auto 1.8rem;">From a quiet dinner for two to a weekend of meals for a houseful of guests, I'd love to hear what you have in mind.</p>
+      <a class="btn pink" href="contact.html">Start an Inquiry</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <div class="social">
+      <a href="https://instagram.com/">Instagram</a>
+      <a href="mailto:tracy@tracynoelle.com">Email</a>
+    </div>
+    <p>Vegan Private Chef · Palm Springs &amp; the Coachella Valley<br>
+    <a href="mailto:tracy@tracynoelle.com">tracy@tracynoelle.com</a></p>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu toggle
+  var t = document.querySelector('.menu-toggle');
+  var l = document.getElementById('nav-links');
+  t.addEventListener('click', function () {
+    var open = l.classList.toggle('open');
+    t.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>

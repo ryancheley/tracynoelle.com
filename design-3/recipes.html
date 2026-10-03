@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipes — Tracy Noelle, Vegan Private Chef</title>
+<meta name="description" content="Vegan recipes from Palm Springs private chef Tracy Noelle: seasonal, plant-based dishes you can make at home.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="contact.html" class="nav-cta">Inquire</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="breeze" style="padding:3rem 0;">
+    <div class="container">
+      <span class="section-label">Recipes</span>
+      <h1 style="color:var(--ink);text-shadow:3px 3px 0 var(--white);">Plant-Based, Palm Springs Style</h1>
+      <p class="lead">A few of my favorite vegan recipes to cook at home, built around the seasons and the sunshine.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="card-grid">
+
+        <article class="card">
+          <img src="https://placehold.co/400x300/f2b705/2a2135?text=Date+Harissa+Carrots" alt="Roasted carrots glazed with date and harissa">
+          <div class="card-body">
+            <p class="meta">Mains · 45 min</p>
+            <span class="tag">Gluten-Free</span>
+            <h3 style="margin-top:0.6rem;"><a href="recipe.html">Date &amp; Harissa Roasted Carrots</a></h3>
+            <p>Sweet local dates meet smoky harissa in this sticky, blistered carrot dish, finished with herbed cashew cream.</p>
+            <a class="read" href="recipe.html">View recipe →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/400x300/1fb3c4/fdf4e3?text=Citrus+Avocado+Salad" alt="Citrus and avocado salad on a plate">
+          <div class="card-body">
+            <p class="meta">Salads · 20 min</p>
+            <span class="tag">Raw</span>
+            <h3 style="margin-top:0.6rem;"><a href="recipe.html">Desert Citrus &amp; Avocado Salad</a></h3>
+            <p>Winter citrus, creamy avocado, shaved fennel, and a toasted pistachio crunch. The valley on a plate.</p>
+            <a class="read" href="recipe.html">View recipe →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/400x300/f06a97/fdf4e3?text=Smoky+Chickpea+Tacos" alt="Smoky chickpea tacos with slaw">
+          <div class="card-body">
+            <p class="meta">Mains · 30 min</p>
+            <span class="tag">Crowd-Pleaser</span>
+            <h3 style="margin-top:0.6rem;"><a href="recipe.html">Smoky Chickpea Street Tacos</a></h3>
+            <p>Crispy spiced chickpeas, quick-pickled cabbage, and avocado-lime crema in warm corn tortillas.</p>
+            <a class="read" href="recipe.html">View recipe →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <div class="social">
+      <a href="https://instagram.com/">Instagram</a>
+      <a href="mailto:tracy@tracynoelle.com">Email</a>
+    </div>
+    <p>Vegan Private Chef · Palm Springs &amp; the Coachella Valley<br>
+    <a href="mailto:tracy@tracynoelle.com">tracy@tracynoelle.com</a></p>
+  </div>
+</footer>
+
+<script>
+  var t = document.querySelector('.menu-toggle');
+  var l = document.getElementById('nav-links');
+  t.addEventListener('click', function () {
+    var open = l.classList.toggle('open');
+    t.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Tracy Noelle — Vegan Private Chef</title>
+  <meta name="description" content="Tracy Noelle Zimmerman is a plant-based private chef in Palm Springs with 25+ years in the culinary field and 15+ years living vegan.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand">Tracy <span>Noelle</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">&#9776;<span class="sr-only"> Menu</span></button>
+      <ul class="nav-links" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="blog.html">Journal</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap narrow">
+        <p class="eyebrow">About</p>
+        <h1>Tracy Noelle Zimmerman</h1>
+        <p class="hero-tagline" style="margin:0">Private Chef ~ Plant Based</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap about-grid">
+        <img src="https://placehold.co/520x640/8a9a7b/fbf7f0?text=Tracy+in+the+Kitchen" alt="Tracy Noelle Zimmerman preparing a plant-based meal">
+        <div>
+          <p class="eyebrow">The short version</p>
+          <h2>Twenty-five years of cooking, fifteen of them plant-based.</h2>
+          <p>I'm Tracy &mdash; a vegan private chef based in the Palm Springs area, cooking for homes, retreats, and gatherings across the Coachella Valley. For more than twenty-five years I've worked in the culinary field, and for the last fifteen I've lived and cooked entirely plant-based. That shift changed how I think about food: lighter, more colorful, deeply satisfying, and kinder to the world it comes from.</p>
+          <p>My cooking leans on the desert's rhythm &mdash; citrus and dates in winter, stone fruit and heirloom tomatoes when the heat arrives &mdash; and on the farmers and growers who make the valley such a quietly remarkable place to cook. A good meal, to me, is as much about how people feel afterward as how it tastes in the moment.</p>
+          <p>Alongside the kitchen, I co-authored the vegan cookbook <em>The Compassionate Kitchen</em> and founded <em>Shefdress</em>, a chef-wear brand designed for the women who run professional kitchens. My background in psychology shapes the way I cook, too &mdash; food is comfort, memory, and care, and I never forget that when I'm planning a menu for someone's table.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-sand">
+      <div class="wrap about-grid">
+        <div>
+          <p class="eyebrow">Training &amp; credentials</p>
+          <h2>Where the technique comes from.</h2>
+          <ul class="creds">
+            <li>Culinary &amp; nutrition training, <strong>Tante Marie Cooking School</strong> &mdash; San Francisco</li>
+            <li>Plant-based culinary &amp; nutrition certification, <strong>Sterling College</strong> &mdash; Sydney</li>
+            <li>Master's degree in <strong>Psychology</strong></li>
+            <li>Co-author, <strong><em>The Compassionate Kitchen</em></strong> &mdash; vegan cookbook</li>
+            <li>Founder, <strong>Shefdress</strong> &mdash; chef-wear for women</li>
+            <li>25+ years in the culinary field &middot; 15+ years living plant-based</li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow">Philosophy</p>
+          <h2>Plant-based, never plain.</h2>
+          <p>Vegan food should never feel like a compromise. I cook so that no one at the table misses a thing &mdash; just a beautiful, generous meal that happens to be made entirely from plants. Seasonal produce leads, flavor stays bold, and every plate is built to nourish.</p>
+          <p>I work closely with each host, honoring allergies, preferences, and the kind of evening you want to create &mdash; relaxed and family-style, or quiet and refined. Whatever the setting, my aim is the same: food made with real care, in the warm, unhurried spirit of the desert.</p>
+          <p><a href="contact.html" class="btn">Inquire about your event</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="index.html" class="brand">Tracy <span>Noelle</span></a>
+      <small>Vegan Private Chef &middot; Palm Springs, CA</small>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="blog.html">Journal</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://instagram.com/">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    var t = document.querySelector('.nav-toggle');
+    var m = document.getElementById('menu');
+    t.addEventListener('click', function () {
+      var open = m.classList.toggle('open');
+      t.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>
