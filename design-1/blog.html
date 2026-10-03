@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal — Tracy Noelle, Vegan Private Chef</title>
+  <meta name="description" content="Notes on plant-based cooking, seasonal desert produce, and life as a vegan private chef in Palm Springs.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand">Tracy <span>Noelle</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">&#9776;<span class="sr-only"> Menu</span></button>
+      <ul class="nav-links" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html" aria-current="page">Journal</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap narrow">
+        <p class="eyebrow">The Journal</p>
+        <h1>Notes from a desert kitchen</h1>
+        <p>Seasonal cooking, plant-based living, and small stories from tables around the Coachella Valley.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="card-grid">
+          <article class="card">
+            <img src="https://placehold.co/600x420/b65a3c/fbf7f0?text=Date+Harvest" alt="Medjool dates on a wooden board">
+            <div class="card-body">
+              <p class="card-meta">Seasonal &middot; Sep 24, 2026</p>
+              <h3><a href="#">Cooking with the Coachella Valley Date Harvest</a></h3>
+              <p>Late September means Medjools at their peak. Here's how I fold the valley's best-known crop into everything from morning granola to a sticky-sweet dinner glaze.</p>
+              <a class="read-more" href="#">Read more &rarr;</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://placehold.co/600x420/8a9a7b/fbf7f0?text=Hosting" alt="A table set for a plant-based dinner party">
+            <div class="card-body">
+              <p class="card-meta">Entertaining &middot; Aug 12, 2026</p>
+              <h3><a href="#">Hosting a Plant-Based Dinner Party in the Desert Heat</a></h3>
+              <p>When it's 110&deg; outside, the menu has to stay cool and the host has to stay calm. My make-ahead approach to a summer evening that feels effortless.</p>
+              <a class="read-more" href="#">Read more &rarr;</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://placehold.co/600x420/c98a5e/fbf7f0?text=Pantry" alt="Jars of beans, grains, and spices in a pantry">
+            <div class="card-body">
+              <p class="card-meta">Plant-Based Living &middot; Jul 03, 2026</p>
+              <h3><a href="#">Five Pantry Staples That Make Vegan Cooking Easy</a></h3>
+              <p>You don't need a specialty store to eat beautifully from plants. These five humble staples do most of the heavy lifting in my own kitchen.</p>
+              <a class="read-more" href="#">Read more &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="index.html" class="brand">Tracy <span>Noelle</span></a>
+      <small>Vegan Private Chef &middot; Palm Springs, CA</small>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="blog.html">Journal</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://instagram.com/">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    var t = document.querySelector('.nav-toggle');
+    var m = document.getElementById('menu');
+    t.addEventListener('click', function () {
+      var open = m.classList.toggle('open');
+      t.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

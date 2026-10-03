@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Tracy Noelle, Vegan Private Chef</title>
+<meta name="description" content="Tracy Noelle Zimmerman: 25+ years in the culinary field, 15+ years plant-based. Vegan private chef in Palm Springs, cookbook co-author, and founder of Shefdress.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="contact.html" class="nav-cta">Inquire</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="breeze" style="padding:3rem 0;">
+    <div class="container">
+      <span class="section-label">About</span>
+      <h1 style="color:var(--ink);text-shadow:3px 3px 0 var(--white);">Hi, I'm Tracy.</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container bio">
+      <div>
+        <img class="headshot" src="https://placehold.co/420x520/f06a97/fdf4e3?text=Tracy+Noelle" alt="Portrait of Chef Tracy Noelle Zimmerman">
+        <h3 style="margin-top:1.5rem;">Credentials</h3>
+        <ul class="pill-list">
+          <li>Tante Marie Cooking School — San Francisco</li>
+          <li>Sterling College — Sydney (culinary &amp; nutrition)</li>
+          <li>Master's in Psychology</li>
+          <li>Co-author, <em>The Compassionate Kitchen</em></li>
+          <li>Founder of Shefdress chef-wear</li>
+        </ul>
+      </div>
+      <div>
+        <h2>A plant-based chef, rooted in the desert.</h2>
+        <p>I'm Tracy Noelle Zimmerman, a vegan private chef based in the Palm Springs area. I've spent more than 25 years in the culinary field and the last 15+ years living and cooking entirely plant-based. What started as a personal shift became my whole craft: proving, plate after plate, that vegan food can be the most exciting thing on the table.</p>
+
+        <p>My training spans continents. I studied at Tante Marie Cooking School in San Francisco and completed culinary and nutrition studies at Sterling College in Sydney. I also hold a master's degree in Psychology, which, it turns out, is never far from the work. Cooking for people is deeply personal, and understanding what nourishes someone, body and spirit, shapes every menu I write.</p>
+
+        <h3>Philosophy</h3>
+        <p>I cook with compassion and curiosity. Everything I make is fully plant-based, built around the seasons and the incredible produce of the Coachella Valley. I believe vegan food should never feel like a compromise, it should feel like an invitation. Generous, colorful, and a little unexpected.</p>
+
+        <p>I co-authored the vegan cookbook <em>The Compassionate Kitchen</em> and founded <em>Shefdress</em>, a chef-wear brand designed for women in professional kitchens. When I'm not cooking for clients, you'll usually find me at a local farm stand or testing a new recipe on friends.</p>
+
+        <p style="margin-top:1.8rem;"><a class="btn" href="contact.html">Work With Me</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <div class="social">
+      <a href="https://instagram.com/">Instagram</a>
+      <a href="mailto:tracy@tracynoelle.com">Email</a>
+    </div>
+    <p>Vegan Private Chef · Palm Springs &amp; the Coachella Valley<br>
+    <a href="mailto:tracy@tracynoelle.com">tracy@tracynoelle.com</a></p>
+  </div>
+</footer>
+
+<script>
+  var t = document.querySelector('.menu-toggle');
+  var l = document.getElementById('nav-links');
+  t.addEventListener('click', function () {
+    var open = l.classList.toggle('open');
+    t.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>

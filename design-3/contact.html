@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inquire — Tracy Noelle, Vegan Private Chef</title>
+<meta name="description" content="Inquire about hiring Tracy Noelle, a vegan private chef in Palm Springs and the Coachella Valley, for dinners, events, and retreats.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="contact.html" class="nav-cta">Inquire</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="breeze" style="padding:3rem 0;">
+    <div class="container">
+      <span class="section-label">Inquire</span>
+      <h1 style="color:var(--ink);text-shadow:3px 3px 0 var(--white);">Let's Plan Something Delicious</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-grid">
+      <div>
+        <h2>Get in touch</h2>
+        <p class="lead">Tell me a little about your event, your dates, and how many guests you're expecting. I serve Palm Springs and the greater Coachella Valley, and I'll get back to you within a couple of days.</p>
+        <p><strong>Email</strong><br><a href="mailto:tracy@tracynoelle.com">tracy@tracynoelle.com</a></p>
+        <p><strong>Follow along</strong><br><a href="https://instagram.com/">@tracynoelle on Instagram</a></p>
+        <p><strong>Serving</strong><br>Palm Springs, Rancho Mirage, Palm Desert, La Quinta &amp; the Coachella Valley</p>
+      </div>
+      <div>
+        <!-- Static mockup form. On Squarespace this becomes a native Form Block. -->
+        <form action="mailto:tracy@tracynoelle.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="type">Type of event</label>
+          <select id="type" name="type">
+            <option>Private dinner</option>
+            <option>Event or celebration</option>
+            <option>Retreat</option>
+            <option>Menu or coaching</option>
+            <option>Something else</option>
+          </select>
+
+          <label for="date">Preferred date</label>
+          <input type="date" id="date" name="date">
+
+          <label for="guests">Number of guests</label>
+          <input type="number" id="guests" name="guests" min="1">
+
+          <label for="message">Tell me more</label>
+          <textarea id="message" name="message" placeholder="What are you dreaming up?"></textarea>
+
+          <p style="margin-top:1.5rem;"><button type="submit" class="btn">Send Inquiry</button></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <div class="social">
+      <a href="https://instagram.com/">Instagram</a>
+      <a href="mailto:tracy@tracynoelle.com">Email</a>
+    </div>
+    <p>Vegan Private Chef · Palm Springs &amp; the Coachella Valley<br>
+    <a href="mailto:tracy@tracynoelle.com">tracy@tracynoelle.com</a></p>
+  </div>
+</footer>
+
+<script>
+  var t = document.querySelector('.menu-toggle');
+  var l = document.getElementById('nav-links');
+  t.addEventListener('click', function () {
+    var open = l.classList.toggle('open');
+    t.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>

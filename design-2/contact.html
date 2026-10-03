@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inquire — Tracy Noelle, Vegan Private Chef</title>
+  <meta name="description" content="Inquire about a plant-based private dining experience in Palm Springs and the Coachella Valley with Chef Tracy Noelle Zimmerman.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand">Tracy Noelle<span>Private Chef</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul class="nav-links" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="blog.html">Journal</a></li>
+        <li><a href="contact.html" class="active">Inquire</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-banner container">
+      <p class="eyebrow">Inquire</p>
+      <h1>Let's set your table</h1>
+      <span class="divider"></span>
+    </div>
+
+    <section class="container">
+      <div class="contact-grid">
+        <div>
+          <p>Tell me a little about your gathering — the date, the setting, and how many you'll be hosting. I design every plant-based menu individually, so the more you share, the better I can imagine it.</p>
+          <p>I serve Palm Springs, Rancho Mirage, Palm Desert, La Quinta, and the greater Coachella Valley.</p>
+          <p class="eyebrow" style="margin-top:2rem">Direct</p>
+          <p><a href="mailto:tracy@tracynoelle.com">tracy@tracynoelle.com</a></p>
+          <p class="eyebrow" style="margin-top:1.5rem">Follow along</p>
+          <p><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram →</a></p>
+        </div>
+
+        <!-- ponytail: static mockup form; wire action to Squarespace Form block or mailto on launch -->
+        <form action="https://formspree.io/f/placeholder" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="date">Event date</label>
+          <input type="date" id="date" name="date">
+
+          <label for="guests">Number of guests</label>
+          <input type="number" id="guests" name="guests" min="1">
+
+          <label for="message">Tell me about your event</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+
+          <button type="submit" class="btn btn-accent">Send inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="brand">Tracy Noelle</p>
+      <p>Vegan Private Chef · Palm Springs, California</p>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="blog.html">Journal</a></li>
+        <li><a href="contact.html">Inquire</a></li>
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <p><a href="mailto:tracy@tracynoelle.com">tracy@tracynoelle.com</a></p>
+    </div>
+  </footer>
+  <script src="menu.js"></script>
+</body>
+</html>

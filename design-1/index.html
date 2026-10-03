@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracy Noelle — Vegan Private Chef, Palm Springs</title>
+  <meta name="description" content="Tracy Noelle Zimmerman, a plant-based private chef serving Palm Springs and the Coachella Valley. Seasonal vegan menus for dinners, retreats, and gatherings.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand">Tracy <span>Noelle</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">&#9776;<span class="sr-only"> Menu</span></button>
+      <ul class="nav-links" id="menu">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Journal</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Palm Springs &middot; Coachella Valley</p>
+        <h1>Plant-based cooking, made personal.</h1>
+        <p class="hero-tagline">Private Chef ~ Plant Based</p>
+        <p>Thoughtful vegan menus built around the desert's light, its farmers, and the people gathered at your table. From intimate dinners to weekend retreats across the Coachella Valley, every dish is seasonal, nourishing, and quietly indulgent.</p>
+        <p>
+          <a href="contact.html" class="btn">Inquire about a dinner</a>
+          <a href="about.html" class="btn btn-outline">Meet Tracy</a>
+        </p>
+      </div>
+      <div class="hero-img">
+        <img src="https://placehold.co/640x760/b65a3c/fbf7f0?text=Chef+Portrait" alt="Portrait of private chef Tracy Noelle Zimmerman in her kitchen">
+      </div>
+    </section>
+
+    <section class="section section-sand">
+      <div class="wrap">
+        <p class="eyebrow">What a table with Tracy looks like</p>
+        <div class="card-grid">
+          <article class="card">
+            <img src="https://placehold.co/600x420/c98a5e/fbf7f0?text=Intimate+Dinners" alt="A plated vegan dinner course">
+            <div class="card-body">
+              <h3>Private Dinners</h3>
+              <p>Multi-course plant-based menus in your home, designed around the season and your guests. Shopping, cooking, and a spotless kitchen included.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://placehold.co/600x420/8a9a7b/fbf7f0?text=Retreats+%26+Events" alt="A table set outdoors for a desert gathering">
+            <div class="card-body">
+              <h3>Retreats &amp; Gatherings</h3>
+              <p>Nourishing menus for wellness retreats, celebrations, and weekends in the valley &mdash; from grazing boards to full family-style spreads.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://placehold.co/600x420/b65a3c/fbf7f0?text=Menu+Design" alt="Fresh produce arranged on a counter">
+            <div class="card-body">
+              <h3>Menus &amp; Coaching</h3>
+              <p>Seasonal menu design and plant-based coaching for those easing into a kinder, more vibrant way of eating.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap narrow" style="text-align:center">
+        <p class="eyebrow">An invitation</p>
+        <h2>Let's build a menu for your table.</h2>
+        <p>Tell me about your gathering &mdash; the date, the number of guests, and the mood you're after. I'll follow up with ideas rooted in what the desert is growing right now.</p>
+        <p><a href="contact.html" class="btn">Start an inquiry</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="index.html" class="brand">Tracy <span>Noelle</span></a>
+      <small>Vegan Private Chef &middot; Palm Springs, CA</small>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="blog.html">Journal</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://instagram.com/">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    var t = document.querySelector('.nav-toggle');
+    var m = document.getElementById('menu');
+    t.addEventListener('click', function () {
+      var open = m.classList.toggle('open');
+      t.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

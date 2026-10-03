@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Tracy Noelle, Vegan Private Chef</title>
+<meta name="description" content="Notes from a vegan private chef in Palm Springs: seasonal plant-based cooking, desert entertaining, and life in the Coachella Valley.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="contact.html" class="nav-cta">Inquire</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="breeze" style="padding:3rem 0;">
+    <div class="container">
+      <span class="section-label">Journal</span>
+      <h1 style="color:var(--ink);text-shadow:3px 3px 0 var(--white);">From the Kitchen</h1>
+      <p class="lead">Seasonal plant-based cooking, desert entertaining, and notes on life as a vegan chef in Palm Springs.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="card-grid">
+
+        <article class="card">
+          <img src="https://placehold.co/400x300/ff6f3c/fdf4e3?text=Farmers+Market" alt="Baskets of produce at a Coachella Valley farmers market">
+          <div class="card-body">
+            <p class="meta">Sept 18, 2025 · Seasonal</p>
+            <h3><a href="#">What's Worth Buying at the Coachella Valley Markets Right Now</a></h3>
+            <p>Dates, late figs, and the first good citrus of the season. A chef's shopping list for cooking with the desert's best this month.</p>
+            <a class="read" href="#">Read more →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/400x300/1fb3c4/fdf4e3?text=Dinner+Party" alt="A plant-based dinner table set for guests">
+          <div class="card-body">
+            <p class="meta">Aug 30, 2025 · Entertaining</p>
+            <h3><a href="#">How to Host a Vegan Dinner Party Nobody Forgets</a></h3>
+            <p>Five things I do for every private dinner, from building a menu with contrast to the one dish that always wins over the skeptics at the table.</p>
+            <a class="read" href="#">Read more →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/400x300/f06a97/fdf4e3?text=Plant+Based+Life" alt="Fresh herbs and vegetables on a cutting board">
+          <div class="card-body">
+            <p class="meta">Aug 12, 2025 · Philosophy</p>
+            <h3><a href="#">Fifteen Years Plant-Based: What Actually Changed</a></h3>
+            <p>A honest look back at going vegan, how my cooking evolved, and why I think the desert is one of the best places to eat with the seasons.</p>
+            <a class="read" href="#">Read more →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <a class="brand" href="index.html">Tracy<span>Noelle</span></a>
+    <div class="social">
+      <a href="https://instagram.com/">Instagram</a>
+      <a href="mailto:tracy@tracynoelle.com">Email</a>
+    </div>
+    <p>Vegan Private Chef · Palm Springs &amp; the Coachella Valley<br>
+    <a href="mailto:tracy@tracynoelle.com">tracy@tracynoelle.com</a></p>
+  </div>
+</footer>
+
+<script>
+  var t = document.querySelector('.menu-toggle');
+  var l = document.getElementById('nav-links');
+  t.addEventListener('click', function () {
+    var open = l.classList.toggle('open');
+    t.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>
