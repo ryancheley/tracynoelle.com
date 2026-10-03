@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>tracynoelle.com — Design Previews</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f6f3ee;
+      color: #2b2b2b;
+      line-height: 1.5;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 4rem 1.25rem 5rem; }
+    header { text-align: center; margin-bottom: 3rem; }
+    h1 { font-size: 1.9rem; margin: 0 0 .5rem; }
+    header p { margin: 0; color: #6b6b6b; }
+    .grid { display: grid; gap: 1.25rem; }
+    @media (min-width: 640px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+    a.card {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      background: #fff;
+      border: 1px solid #e3ddd3;
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: transform .12s ease, box-shadow .12s ease;
+    }
+    a.card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0,0,0,.08); }
+    .num { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: #a08d72; margin-bottom: .5rem; }
+    .name { font-size: 1.2rem; font-weight: 600; margin-bottom: .35rem; }
+    .desc { font-size: .92rem; color: #6b6b6b; }
+    footer { text-align: center; margin-top: 3rem; font-size: .85rem; color: #9a9a9a; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Website Design Previews</h1>
+      <p>Three directions for tracynoelle.com — pick one to explore the full site.</p>
+    </header>
+    <div class="grid">
+      <a class="card" href="design-1/">
+        <span class="num">Option 1</span>
+        <span class="name">Warm Desert Editorial</span>
+        <span class="desc">Terracotta &amp; sage, serif type — an upscale lifestyle-magazine feel.</span>
+      </a>
+      <a class="card" href="design-2/">
+        <span class="num">Option 2</span>
+        <span class="name">Clean Minimalist</span>
+        <span class="desc">Near-monochrome, lots of space — quiet, fine-dining elegance.</span>
+      </a>
+      <a class="card" href="design-3/">
+        <span class="num">Option 3</span>
+        <span class="name">Mid-Century Palm Springs</span>
+        <span class="desc">Sunset orange &amp; pool blue — bold, playful, retro desert-modern.</span>
+      </a>
+    </div>
+    <footer>Private preview · Vegan Private Chef · Palm Springs</footer>
+  </div>
+</body>
+</html>
